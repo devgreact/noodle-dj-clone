@@ -22,9 +22,12 @@ $(document).ready(function () {
       // 클릭된 li 에 focus-active 추가하기
       navLis.eq(index).addClass("focus-active");
       // 2. 클릭하면 스크롤바가 움직인다.
-      $("html, body").animate({
-        scrollTop: sectionYpos[index]
-      }, "slow");
+      $("html, body").animate(
+        {
+          scrollTop: sectionYpos[index],
+        },
+        "slow"
+      );
     });
   });
 });
