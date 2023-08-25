@@ -32,6 +32,17 @@ $(document).ready(function () {
   });
 });
 
+// 작성자 : 김우철
+window.addEventListener("load", function () {
+  //   const designSwiper = new Swiper("클래스명", {옵션})
+  const designSwiper = new Swiper(".designswiper", {});
+
+  // var designSwiper = new Swiper(".designSwiper", {
+  //     effect: "cards",
+  //     grabCursor: true,
+  //   });
+});
+
 /*
 
 // 멀티미디어 리소스 로딩 완료 후 실행
